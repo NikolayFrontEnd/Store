@@ -1,0 +1,82 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #2787f5;
+    color: white;
+    padding: 10px 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    font-family: 'Arial', sans-serif;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius:20px ;
+}
+.title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.subtitle {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.button {
+    margin-top: 10px;
+    background-color: #5DADE2; 
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.button:hover {
+    background-color: #3498DB; 
+    transform: translateY(-2px);
+}
+
+.Specialbutton {
+    margin-top: 10px;
+    background-color: #FF6F61; 
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.Specialbutton:hover {
+    background-color: #E74C3C;
+    transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+    .header {
+        padding: 10px;
+    }
+
+    .title {
+        font-size: 16px;
+    }
+
+    .subtitle {
+        font-size: 12px;
+    }
+
+    .button, .Specialbutton {
+        font-size: 12px;
+        padding: 8px 10px;
+    }
+}
