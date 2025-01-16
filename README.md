@@ -1,3 +1,6 @@
+Здравствуйте! Чтобы запустить код, нужно ввести команду npm run dev
+Спасибо большое за задание! С любовь к ВК и к команде VK Tech! Удачной проверки
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
