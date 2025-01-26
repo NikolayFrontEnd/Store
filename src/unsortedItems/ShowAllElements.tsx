@@ -46,7 +46,7 @@ const ShowAllElements: React.FC = observer(() => {
                     Полный список репозиториев
                 </Typography>
                 <Grid container spacing={4}>
-                    {repositoriesStore.repos.map((repositor) => (
+                     {repositoriesStore.sortedRepos.map((repositor) => (
                         <Grid item xs={12} sm={6} md={4} key={repositor.id}>
                             <Card sx={{ boxShadow: 3, borderRadius: 2 }}>
                                 <CardHeader
